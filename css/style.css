@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #8a8a8a url(./../img/bg_contact.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-blend-mode: multiply;
+    mix-blend-mode: exclusion;
+}
+
+#contact {
+    height: 70vh;
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* container set */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(1, 41, 39, 0.6);
+    mix-blend-mode: exclusion;
+    border-radius: 20px;
+}
+
+.container-text {
+
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    /* background: #8a8a8a; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.container-form {
+    background: #fff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
