@@ -20,12 +20,15 @@
         <div class="container-form">
             <p>Rellena los campos</p>
             <form action="enviar-formulario" id="survey-form">
-                <label for="name" >
-                    <input type="text" name="name" id="name" placeholder="Nombre Completo">
-                </label>
-                <label for="email">
-                    <input type="email" name="email" id="email" placeholder="Correo Electrónico">
-                </label>
+                <label for="name" >Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+                
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Correo Electrónico" required>
+
+                <label for="number">Teléfono</label>
+                <input type="tel" name="phone" id="number" placeholder="Número Telefónico" pattern="\d*" required>
+                
                 <button type="submit" id="submit">Enviar</button>
             </form>
 

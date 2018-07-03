@@ -38,6 +38,7 @@ body {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     color: #fff;
+    padding: 10px 20px;
     /* background: #8a8a8a; */
     display: flex;
     align-items: center;
@@ -49,12 +50,14 @@ body {
     -o-mix-blend-mode: screen;
     -ms-mix-blend-mode: screen;
     mix-blend-mode:screen;
+    text-shadow: 2px 2px #080808;
 }
 
 .container-form {
     background: #fff;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    padding: 10px 20px;
 }
 
 #title {
